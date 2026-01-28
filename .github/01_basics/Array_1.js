@@ -33,10 +33,10 @@
 //const A = [...myArr ,...myArr1];
 //console.log(A);
 
-//const A = [1,2,3,[2,3,4,[6,7,8],4],5];
-//console.log(A);
-//const B = A.flat(2);
-//console.log(B);
+const A = [1,2,3,[2,3,4,[6,7,8],4],5];
+console.log(A);
+const B = A.flat(2);
+console.log(B);
 
 Array.isArray("Danish");
 console.log(Array);
